@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:0;
+        }
+        .container{
+            display:flex;
+            gap:5px;
+            width:40vw;
+            height:100vh;
+            align-items:center;
+        }
+        .logo{
+            display:grid;
+            grid-template:5vw 5vw / 5vw 5vw;
+            gap:0.25vw;
+        }
+        .red{
+            background-color:#F25022;
+        }
+        .green{
+            background-color:#7FBA00;
+        }
+        .blue{
+            background-color:#00A4EF;
+        }
+        .yellow{
+            background-color:#FFB900;
+        }
+        .name{
+            font-size:4rem;
+            color:#737373;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="yellow"></div>
+        </div>
+        <div class="name">
+            <p>Microsoft</p>
+        </div>
+    </div>
+</body>
+</html>
